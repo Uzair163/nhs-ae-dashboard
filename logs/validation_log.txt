@@ -1,0 +1,8 @@
+NHS A&E panel build — validation log
+Rows in panel: 14440
+Files ingested: 89
+Non-Trust provider rows dropped: 4027
+Aggregate TOTAL rows dropped: 77
+
+ISSUES FOUND (1):
+  - INFO: 1026 Trust-month rows flagged as suspect zero-breach (>1000 attendances, 0 recorded breaches — likely non-reporting artifact, see docs/schema_log.md)
