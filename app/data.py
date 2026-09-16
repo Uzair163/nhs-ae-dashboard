@@ -60,6 +60,7 @@ def national_monthly_trend(df, exclude_suspect=False):
         total_over4hrs=("total_over4hrs", "sum"),
         ae_type1=("ae_type1", "sum"),
         over4hrs_type1=("over4hrs_type1", "sum"),
+        ae_type2=("ae_type2", "sum"),
         ae_other=("ae_other", "sum"),
         over4hrs_other=("over4hrs_other", "sum"),
         waited_12plus_hrs_dta=("waited_12plus_hrs_dta", "sum"),
