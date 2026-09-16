@@ -51,9 +51,9 @@ st.dataframe(
     ]].rename(columns={
         "period_label": "Month",
         "pct_within_4hrs_forecast": "4-hr performance forecast %",
-        "pct_within_4hrs_uncertainty_pp": "+/- (pp)",
+        "pct_within_4hrs_uncertainty_pp": "4-hr +/- (pp)",
         "pct_12plus_wait_forecast": "12+hr wait forecast %",
-        "pct_12plus_wait_uncertainty_pp": "+/- (pp)",
+        "pct_12plus_wait_uncertainty_pp": "12+hr +/- (pp)",
     }),
     use_container_width=True,
     hide_index=True,
